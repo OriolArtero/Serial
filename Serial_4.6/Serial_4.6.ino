@@ -4,7 +4,7 @@ void setup()                    // run once, when the sketch starts
   Serial.begin(9600);       // set up Serial library at 9600 bps
   Serial.print("Ara comptare de 0 a ");
   Serial.println(comptar);
-  for (int i=0; i <= comptar; i++)
+  for (int i=0; i <= 10; i++)
   {
     Serial.print(i);
     Serial.print("-");
